@@ -14,7 +14,7 @@ headers = {
 
 for i in range(TIMES):
     payload = {
-        "humidity": round(random.uniform(20, 30), 2)
+        "temperature": round(random.uniform(20, 30), 2)
     }
 
     print('Sending data to Thingsboard...')
